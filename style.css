@@ -24,7 +24,7 @@
 }
 
 /* *** media query primo container *** */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 419px) {
   .container {
     background-color: #f2f2cd;
     padding: 10px;
@@ -32,7 +32,7 @@
 
   .row {
     width: 100%;
-    margin: 0;
+    margin: 20px 0;
   }
 
   #lezioni .row img {
@@ -59,7 +59,7 @@
   text-align: center;
 }
 /* *** media query secondo container *** */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 419px) {
   .container.grey {
     padding: 10px;
   }
@@ -69,6 +69,7 @@
   #steps .row>.right {
     width: 100%;
     float: none;
+    margin: 20px 0;
   }
   #steps .container.grey img {
     width: 100%;
@@ -93,6 +94,18 @@
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
+}
+
+@media screen and (max-width: 419px) {
+  #why.container.grey {
+    background-color: #f2f2cd;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin: 20px 0;
+  }
 }
 
 /* COMMON */
